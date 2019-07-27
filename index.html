@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<meta charset="utf-8">
+    <script src="js/underscore.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="d3/d3.min.js"></script>
+    <script src="//d3js.org/topojson.v0.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1>CS 498 Assignment 7-3-3 Create a Narrative Visualization - mmunjal2</h1>
+		<div class="row">
+			<div class="col-md-6"><h1>World Population</h1></div>
+			<div class="col-md-6">
+				<svg width="450px" height="30px">
+			
+
+				</svg>				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				
+				<p>This visualization narrative provides view of world population by countries. The world population is the total number of humans currently living, and was estimated to have reached 7.7 billion people as of April 2019 It took over 200,000 years of human history for the world's population to reach 1 billion and only 200 years more to reach 7 billion.</p>
+				
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="container" id="slide1">
+		<div class="row">
+			<h3>Scene 1 (Rank of Countries by Population)</h3>
+			<p>The following geo chart displays the world population by countries and this dataset taken from World Bank and visualized according to the above legend. </p>
+			<div class="col-md-8">
+				<svg id="svg-quality-of-life" viewBox="0 0 1000 450" width="100%" height="400px"></svg>
+			</div>
+			<div class="col-md-4">
+				<h4 id="country-name"></h4>
+				<ul id="country-properties">
+				</ul>
+				<p id="map-help">
+					Move mouse over the map to see the rank of countries according according to population in 2017
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="slide2">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Best countries based on personal preferences</h2>
+				<p>Where to live is a very subjective question. The following visualization allows you to see different countries and their relative ranking using various perspectives.</p>
+				<div class="well text-center">
+				<form class="form-inline">
+					<div class="form-group">
+						<label for="input" class="control-label">Select a Country from the list:</label>
+						<select name="custom-index" id="custom-index" class="form-control">
+							<option value="India" selected data-order="desc">India</option>
+							<option value="China" data-order="desc">China</option>
+							<option value="United States" data-order="desc">United States</option>
+							<option value="Indonesia" data-order="desc">Indonesia</option>
+							<option value="Brazil" data-order="desc">Brazil</option>
+							<option value="Pakistan" data-order="asc">Pakistan</option>
+							<option value="Nigeria" data-order="asc">Nigeria</option>
+							<option value="Bangladesh" data-order="asc">Bangladesh</option>
+							<option value="Russia" data-order="desc">Russia</option>
+							<option value="Mexico" data-order="desc">Mexico</option>
+						</select>
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="col-md-6">
+				<svg id="svg-custom" viewBox="0 0 1000 450" width="100%" height="300px"></svg>
+			</div>
+			<div class="col-md-6">
+				<svg id="svg-prop-bar" width="100%" height="300px"></svg>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="slide3">
+		<div class="row">
+			<div class="col-md-6">
+				<svg id="svg-custom1" viewBox="0 0 1000 450" width="100%" height="300px"></svg>
+			</div>
+			
+		</div>
+	</div>
+		
+	
+	
+<script>
+$('#about-viz-btn').click(function(){ $('#about-viz').toggleClass('hide'); });
+$('#about-viz-hide').click(function(){ $('#about-viz').addClass('hide'); });
+</script>
+
+</body>
+
+</html>
