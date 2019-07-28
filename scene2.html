@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<meta charset="utf-8">
+    <script src="js/underscore.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="d3/d3.min.js"></script>
+    <script src="//d3js.org/topojson.v0.min.js"></script>
+    <script src="main1.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />	
+<script type="text/javascript" src="javascript/jquery-1.7.2.js"></script> <!--JQUERY SOURCE LINK-->
+<script src="Chart.js-master/Chart.js"></script> <!--Chart.js SOURCE LINK-->
+</head>
+<body>
+
+<div id="wrapper">
+					
+	<!--Navigation Pane-->
+	<div id="topnav" align="center">		
+				<!--Navigation Pane-->
+
+	<ul>
+		
+		
+		<li class=><a href="index.html" value="Main"/>Home</a></li>
+		<li class=><a href="scene1.html" value="Scene1"/>Scene1</a> </li>
+		<li class=active><a href="scene2.html" value="Scene2">Scene2</a></li>
+		<li class=><a href="scene3.html" value="Scene3">Scene3</a></li>
+		<li class=><a href="gloss.html">Glossary</a></li>
+			
+	</ul>
+
+</div>
+
+	<div class="container" id="slide2">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Best countries based on personal preferences</h2>
+				<p>Where to live is a very subjective question. The following visualization allows you to see different countries and their relative ranking using various perspectives.</p>
+				<div class="well text-center">
+				<form class="form-inline">
+					<div class="form-group">
+						<label for="input" class="control-label">Select a Life Quality Index:</label>
+						<select name="custom-index" id="custom-index" class="form-control">
+							<option value="Quality of Life Index" selected data-order="desc">Quality of Life</option>
+							<option value="Purchasing Power Index" data-order="desc">Purchasing Power</option>
+							<option value="Safety Index" data-order="desc">Safety</option>
+							<option value="Health Care Index" data-order="desc">Health Care</option>
+							<option value="Cost of Living Index" data-order="asc">Cost of Living</option>
+							<option value="Property Price to Income Ratio" data-order="asc">Property Price to Income Ratio</option>
+							<option value="Traffic Commute Time Index" data-order="asc">Traffic Commute Time</option>
+							<option value="Pollution Index" data-order="asc">Pollution</option>
+							<option value="Climate Index" data-order="desc">Climate</option>
+						</select>
+					</div>
+				</form>
+				</div>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="col-md-6">
+				<svg id="svg-custom" viewBox="0 0 1000 450" width="100%" height="300px"></svg>
+			</div>
+			<div class="col-md-6">
+				<svg id="svg-prop-bar" width="100%" height="300px"></svg>
+			</div>
+		</div>
+		
+	</div>
+	
+<script>
+$('#about-viz-btn').click(function(){ $('#about-viz').toggleClass('hide'); });
+$('#about-viz-hide').click(function(){ $('#about-viz').addClass('hide'); });
+</script>
+
+</body>
+
+</html>

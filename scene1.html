@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="TC Query Tool" />
+<meta name="keywords" content="" />
+<meta name="author" content="Mohit Munjal" />
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />	
+<script type="text/javascript" src="javascript/jquery-1.7.2.js"></script> <!--JQUERY SOURCE LINK-->
+<script src="Chart.js-master/Chart.js"></script> <!--Chart.js SOURCE LINK-->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="js/underscore.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="d3/d3.min.js"></script>
+<script src="//d3js.org/topojson.v0.min.js"></script>
+<script src = "https://d3js.org/d3.v4.min.js"></script>
+<script src="main.js"></script>
+
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+	
+<div id="wrapper">
+					
+	<!--Navigation Pane-->
+	<div id="topnav" align="center">		
+				<!--Navigation Pane-->
+
+	<ul>
+		
+		
+		<li class=><a href="index.html" value="Main"/>Home</a></li>
+		<li class=active><a href="scene1.html" value="Scene1"/>Scene1</a> </li>
+		<li class=><a href="scene2.html" value="Scene2">Scene2</a></li>
+		<li class=><a href="scene3.html" value="Scene3">Scene3</a></li>
+		<li class=><a href="gloss.html">Glossary</a></li>
+			
+	</ul>
+
+</div>		
+
+	<div class="container" id="slide1">
+		<div class="row">
+			<h3>Scene 1 (Rank of Countries by Population)</h3>
+			<p>The following geo chart displays the world population by countries and this dataset taken from World Bank and visualized according to the above legend. </p>
+			<div class="col-md-8">
+				<svg id="svg-quality-of-life" viewBox="0 0 1000 450" width="100%" height="400px"></svg>
+			</div>
+			<div class="col-md-4">
+				<h4 id="country-name"></h4>
+				<ul id="country-properties">
+				</ul>
+				<p id="map-help">
+					Move mouse over the map to see the rank of countries according according to population in 2017
+				</p>
+			</div>
+		</div>
+	</div>
+
+</body>		
+
+</html>

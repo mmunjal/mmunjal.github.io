@@ -1,0 +1,386 @@
+body {
+background-color:#f1f1f1;
+font-family: arial;
+color:#333;
+margin:0;
+padding:0px;
+}
+
+
+
+.beta td{
+font-weight: normal;
+}	
+
+#wrapper {
+width:1050px;
+height:auto;
+min-height:50px;
+border-radius: 4px;
+background-color:#f1f1f1;
+margin:0 auto;
+border-top:0px solid #ccc;
+border-left:0px solid #ccc;
+border-right:0px solid #ccc;
+border-bottom:0px solid #ccc;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,197,120,1)), color-stop(100%,rgba(251,157,35,1))); /* Chrome,Safari4+ */
+}
+
+#header {
+width:1010px;
+height:135px;
+margin:0 auto;
+margin-bottom:25px;
+border-bottom:1px solid #ccc;
+border-top:1px solid #ccc;
+}
+ 
+#header h2 {
+padding:10px;
+}
+ 
+#nav {
+width:1010px;
+height:0 auto;
+margin:0 auto;
+margin-bottom:25px;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+}
+ 
+#nav a {
+display:inline;
+padding:10px;
+text-decoration:none;
+background-color:#f1f1f1;
+}
+ 
+#nav a:hover {
+background-color:#bababa;
+height:80px;
+}
+ 
+#sidebar {
+width:200px;
+float:right;
+margin-bottom:25px;
+}
+ 
+#sidebar a {
+text-decoration:none;
+}
+ 
+#sidebar li 
+list-style:none;
+}
+ 
+#footer {
+clear:both;
+width:960px;
+height:135px;
+border-top:1px solid #ccc;
+}
+ 
+#footer p {
+padding:10px;
+}
+
+#pageview {
+border-radius:5px;
+font-family:arial;
+font-size:10px;
+width:auto;
+height:auto;
+min-height:250px;
+padding-top: 0px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+}
+
+
+#clusters li {
+padding:0px;
+list-style-type: none;
+cursor: pointer;
+cursor: hand;
+}
+
+#process-details {
+font-size: 11px;
+margin-top: 5px;
+padding: 2px;
+width:170px;
+}
+
+#process-details  table{
+width:170px; /*130px*/
+background: #FFFFFF;
+border-radius: 3px;
+}
+
+
+
+#login {
+width:960px;
+height:auto;
+}
+
+#login label{
+display: block;
+font-weight: bold;
+color: #FFFFFF;
+text-align: right;
+padding:2px;
+}
+
+#login h2{
+font-size:20px; 
+}
+
+#satmon {
+font-family:arial;
+font-size:12px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+border-radius: inherit;
+}
+
+#graph {
+width:auto;
+height:auto;
+min-height:300px;
+padding: 25px;
+font-family:arial;
+font-size:inherit;
+}
+
+
+
+fieldset{
+border-radius: 3px;
+}
+
+legend{
+text-align:left;
+font-size:10px;
+font-weight:bold;
+}
+
+input[type=text]{
+width: 200px;
+float:left;
+padding:2px;
+color:#B2C629;
+}
+
+input[type=password]{
+width: 200px;
+float:left;
+padding:2px;
+}
+
+input[type=radio]{
+padding:4px;
+}
+
+
+
+#alert input[type=submit]{
+border-radius: 5px;
+font-size:14px;
+font-weight: bold;
+font-family:inherit;
+padding:10px;
+width:350px
+}
+
+#alert input.breached{ color:white; cursor: pointer; cursor: hand; background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#f04d4d), color-stop(100%,#f04d4d)); /* Chrome,Safari4+ */;}
+#alert input.good{color:white; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5ccc51), color-stop(100%,#5ccc51)); /* Chrome,Safari4+ */;}	
+
+#alert button{
+font-size: 11px;
+font-family: Arial,Verdana, "Times New Roman", Times, serif;
+}
+
+.recharge h2{
+font-size: 14px;
+font-family: Arial,Verdana, "Times New Roman", Times, serif;
+}
+
+h2{
+margin:0 0 0 0; 
+padding:0 0 0 0; 
+font-size: 16px;
+font-weight:bold; 
+font-family: Arial,Verdana, "Times New Roman", Times, serif;
+}
+
+option{
+padding:10px
+}
+
+p{
+padding:5px;
+}
+
+button{
+width:100px;
+font-family:font;
+font-size:inherit;
+padding:10px;
+}
+
+@charset "utf-8";
+/*
+Template Name: PlusBusiness
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Navigation CSS
+*/
+
+#topnav{display:block;float:inherit margin:0 0 0 0; padding-bottom: 47px; list-style:none; font-size:14px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif;}
+#topnav ul, #topnav li{float:left; list-style:none; margin:0; padding:0;}
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{color:white; text-decoration: none !important;display:block; margin:0; padding:15px 20px; color:white; background-color:#B2C629;}
+#topnav ul ul li a:link, #topnav ul ul li a:visited{border:none;}
+#topnav li.last a{margin-right:0;}
+#topnav li a:hover, #topnav ul li.active a{color:#FFFFFF; background-color:#333333;}
+#topnav li li a:link, #topnav li li a:visited{width:150px; float:none; margin:0; padding:7px 10px; font-size:12px; font-weight:normal;}
+#topnav li ul{z-index:9999; position:absolute; middle:-999em; height:auto; width:170px; border-left:1px solid #CCCCCC; border-bottom:1px solid #CCCCCC;}
+#topnav li ul a{width:140px;}
+#topnav li ul ul{margin:-32px 0 0 0;}
+#topnav li:hover ul ul{left:-999em;}
+#topnav li:hover ul, #topnav li li:hover ul{left:auto;}
+#topnav li:hover{position:static;}
+
+
+/* ----------------------------------------------Column Navigation------------------------------------- */
+
+#column .subnav{display:block; width:250px; padding:25px; background-color:#F9F9F9; margin-bottom:30px;}
+#column .subnav h2{margin:0 0 20px 0; padding:0 0 14px 0; font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#666666; background-color:#F9F9F9; line-height:normal; border-bottom:1px dotted #666666;}
+#column .subnav ul{margin:0; padding:0; list-style:none;}
+#column .subnav li{margin:0 0 3px 0; padding:0;}
+#column .subnav ul ul, #column .subnav ul ul ul, #column .subnav ul ul ul ul, #column .subnav ul ul ul ul ul{border-top:none; padding-top:0;}
+#column .subnav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#777777; background:url("images/green_file.gif") no-repeat 10px center #F9F9F9; text-decoration:none; border-bottom:1px dotted #666666;}
+#column .subnav a:hover{color:#B2C629; background-color:#F9F9F9;}
+#column .subnav ul ul a, #column .subnav ul ul ul a, #column .subnav ul ul ul ul a, #column .subnav ul ul ul ul ul a{background:url("images/black_file.gif") no-repeat #F9F9F9;}
+#column .subnav ul ul a{padding-left:40px; background-position:30px center;}
+#column .subnav ul ul ul a{padding-left:50px; background-position:40px center;}
+#column .subnav ul ul ul ul a{padding-left:60px; background-position:50px center;}
+#column .subnav ul ul ul ul ul a{padding-left:70px; background-position:60px center;}
+
+#loading {
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+position: absolute;
+display: block;
+opacity: 0.7;
+background-color: #fff;
+text-align: center;
+}
+
+#loading-image {
+position: absolute;
+top:25%;
+left:48.3%;
+}
+
+
+p {font-size:12px; font-family:sans-serif;}
+p.ex1 {font-size:14px;font-weight:bold;}
+p.ex2 {font-size:22px;font-weight:bold;color:white;}
+
+body{font-family:Arial;}
+table, td, th {border:1px solid grey;padding:2px;}
+table {border-collapse:collapse;}
+
+th{background-color:#9acd32;font-size:24;color:black;}
+tr{font-size:14;color:black;}
+a:link {color:black;text-decoration:none;}
+a:visited {color:black;text-decoration:none;}
+a:hover {color:red;text-decoration:none;}
+a:active {color:red;text-decoration:none;}
+
+
+.container {
+  width: 970px;
+  max-width: none !important;
+}
+
+.country {
+	stroke: #999;
+}
+
+.row { margin-bottom: 10px; }
+
+div.tooltip {	
+    position: absolute;			
+    padding: 5px 5px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 2px;			
+    pointer-events: none;			
+}
+.tooltip td { padding: 2px 5px; }
+
+#svg-prop-bar rect {
+  fill: steelblue;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: orange;
+}
+
+.highlight {
+  fill: orangered;
+}
+.bar:hover {
+  fill: orangered ;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+

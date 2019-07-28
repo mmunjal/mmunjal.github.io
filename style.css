@@ -1,0 +1,91 @@
+p {font-size:12px; font-family:sans-serif;}
+p.ex1 {font-size:14px;font-weight:bold;}
+p.ex2 {font-size:22px;font-weight:bold;color:white;}
+
+body{font-family:Arial;}
+table, td, th {border:1px solid grey;padding:2px;}
+table {border-collapse:collapse;}
+
+th{background-color:#9acd32;font-size:18;color:red;}
+tr{font-size:14;}
+a:link {color:black;text-decoration:none;}
+a:visited {color:black;text-decoration:none;}
+a:hover {color:red;text-decoration:none;}
+a:active {color:red;text-decoration:none;}
+
+.container {
+  width: 970px;
+  max-width: none !important;
+}
+
+.country {
+	stroke: #999;
+}
+
+.row { margin-bottom: 10px; }
+
+div.tooltip {	
+    position: absolute;			
+    padding: 5px 5px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 2px;			
+    pointer-events: none;			
+}
+.tooltip td { padding: 2px 5px; }
+
+#svg-prop-bar rect {
+  fill: steelblue;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: orange;
+}
+
+.highlight {
+  fill: orangered;
+}
+.bar:hover {
+  fill: orangered ;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
