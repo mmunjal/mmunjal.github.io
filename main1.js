@@ -73,7 +73,7 @@ function loadSlide1() {
 }
 
 
-function loadSlide2() {
+function Scene2() {
 	var svgMap = d3.select("#slide2 #svg-custom");
 
 	$("#svg-prop-bar").empty();
@@ -199,9 +199,9 @@ function loadSlide2() {
 function loadViz() {
 
 	$('#custom-index').change(function(){
-		loadSlide2();
+		Scene2();
 	});
-	loadSlide2();
+	Scene2();
 }
 
 $(function(){

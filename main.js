@@ -35,7 +35,7 @@ function loadData(csv, json) {
 	return countries;
 }
 
-function loadSlide1() {
+function Scene1() {
 	var svg = d3.select("#slide1 svg");
 
 	var path = d3.geoPath()
@@ -194,8 +194,8 @@ function type(d) {
 }
 
 function loadViz() {
-	loadSlide1();
-	loadSlide2();
+	Scene1();
+
 	
 }
 
